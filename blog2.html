@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="search.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div class="top-left">
+                <a href="index.html">HOME</a>
+            </div>
+            
+            <div class="logo">
+                <video width="120" height="120" autoplay loop muted>
+                    <source src="logo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="top-right">
+                <a href="blog.html">BLOG</a>
+                <a href="about.html">ABOUT</a>
+                <a href="contact.html">CONTACT</a>
+                <a href="signup.html">SIGN UP</a>
+            </div>
+        </nav>
+    </header>
+
+<main>
+    <div class="blog-container2">
+        <div class="blog-post4">
+            <div class="post-image4">
+                <img src="img-post4.jpg" alt="Image for Post 4">
+            </div>
+            <div class="post-content">
+                <h5>Upgrading your laptop</h5>
+                <p>Date: October 14</p>
+                <p>Is it possible to upgrade a laptop? I will answer this question in this tech blog post. What components can be replaced in a laptop? How much does it cost to upgrade a laptop? Are there other ways to speed up a laptop using external accessories and components? And much more.</p>
+            </div>
+        </div>
+        <div class="blog-post5">
+            <div class="post-image5">
+                <img src="img-post5.jpg" alt="Image for post 5">
+            </div>
+            <div class="post-content">
+                <h5>Clearing iPhone storage</h5>
+                <p>Date: October 18</p>
+                <p>In this tech blog, I will show you some of the best cleaning programs. They will clean your iPhone from various rubbish: delete unnecessary files, duplicate photos or identical phone contacts.</p>
+            </div>
+        </div>
+        <div class="blog-post6">
+            <div class="post-image6">
+                <img src="img-post6.jpg" alt="Image for post 6">
+            </div>
+            <div class="post-content">
+                <h5>Replacing the display on Samsungs</h5>
+                <p>Date: October 13</p>
+                <p>Interested in replacing display on Samsung phones? Here you can find some really useful guides and tips!</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    // Function to redirect to the post's page when the blog post is clicked
+    function redirectToPost(postNumber) {
+        window.location.href = 'post' + postNumber + '.html'; 
+    }
+
+    document.querySelector('.blog-post4').addEventListener('click', function () {
+        redirectToPost(4);
+    });
+    document.querySelector('.blog-post5').addEventListener('click', function () {
+        redirectToPost(5);
+    });
+    document.querySelector('.blog-post6').addEventListener('click', function () {
+        redirectToPost(6);
+    });
+</script>
+
+<div class="next-page-button-container">
+    <a href="blog.html" class="next-page-button">Back</a>
+</div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+            <div class="footer-buttons">
+                <a href="terms-pol-faq.html">Terms of Use</a>
+                <a href="terms-pol-faq.html">Privacy Policy</a>
+                <a href="terms-pol-faq.html">FAQ</a>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img src="x-icon.png" alt="Twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

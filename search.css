@@ -1,0 +1,30 @@
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; 
+}
+
+/* Style for the search input */
+#search {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: transparent; 
+    color: #fff; 
+    width: 100%; 
+}
+
+/* Style for the search button */
+#search-button {
+    background-color: #0074D9; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #0056b3; 
+}
+
